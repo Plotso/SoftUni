@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+public class Puppy : Dog
+{
+    public void Weep()
+    {
+        Console.WriteLine("weeping…");
+    }
+
+    //public override void Eat()
+    //{
+    //    //base.Eat();
+
+    //    Console.WriteLine("Changed the eating process from 2nd inner class :)");
+    //}
+}
